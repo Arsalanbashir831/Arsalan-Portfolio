@@ -41,19 +41,16 @@ const Contact = () => {
             </ul>
 
             <div className={`${classes.social__links}`}>
-              <Link href="#">
-                <i className="ri-youtube-line"></i>
-              </Link>
-              <Link href="#">
+              <Link href="https://github.com/Arsalanbashir831/">
                 <i className="ri-github-line"></i>
               </Link>
-              <Link href="#">
+              <Link href="https://www.facebook.com/arsalan.bashir.714">
                 <i className="ri-facebook-line"></i>
               </Link>
-              <Link href="#">
+              <Link href="https://www.linkedin.com/in/arsalan-bashir-802710205/">
                 <i className="ri-linkedin-line"></i>
               </Link>
-              <Link href="#">
+              <Link href="https://www.instagram.com/me._.arsalan">
                 <i className="ri-instagram-line"></i>
               </Link>
             </div>

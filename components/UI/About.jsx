@@ -21,11 +21,7 @@ const About = () => {
             <h3 className="mt-4">I&apos;m here</h3>
             <h3 className="mb-4">to help your next project</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
-              neque asperiores temporibus quo saepe odio, esse labore libero
-              obcaecati quidem explicabo blanditiis deleniti ex vitae ratione
-              ullam fugiat dicta eum sint officiis porro illum quia. Error quam
-              cum excepturi beatae.
+           Check out my WEB and CONSOLE base projects. I have 2 years of experience in Web Application development.  
             </p>
 
             <div className=" d-flex align-items-center gap-5">
@@ -68,7 +64,7 @@ const About = () => {
               </button>
 
               <button className="secondary__btn">
-                <Link href="#">Download CV</Link>
+                <Link href="https://drive.google.com/file/d/1ODvQMwdwcCMB0mOalQoOKkgeDJDCPTzv/view">Download CV</Link>
               </button>
             </div>
           </Col>

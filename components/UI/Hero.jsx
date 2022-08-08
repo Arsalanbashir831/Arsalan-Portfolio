@@ -7,6 +7,7 @@ import heroImg from "../../public/images/mypic.png";
 import classes from "../../styles/hero.module.css";
 import Typewriter from 'typewriter-effect';
 import Fade from 'react-reveal/Fade';
+
 const Hero = () => {
   return (
     <>
@@ -33,17 +34,15 @@ const Hero = () => {
                </Typewriter>
              </h5>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                Impedit rem sint ipsa cumque. Atque rem vel iusto impedit omnis
-                quos!
+              I am Full Stack Developer .Completed many projects in Java , React and MySql. I also have a great experience in MERN Stack applications.
               </p>
               <div className="mt-5">
                 <button className="primary__btn">
-                  <Link href="#">Hire me</Link>
+                  <Link href="#contact">Hire me</Link>
                 </button>
 
                 <button className="secondary__btn">
-                  <Link href="#">Download CV</Link>
+                  <Link href="https://drive.google.com/file/d/1ODvQMwdwcCMB0mOalQoOKkgeDJDCPTzv/view">Download CV</Link>
                 </button>
               </div>
             </div>

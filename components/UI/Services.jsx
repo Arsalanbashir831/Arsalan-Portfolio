@@ -32,11 +32,8 @@ const Services = () => {
             <h3 className="mb-0 mt-4">Better Design,</h3>
             <h3 className="mb-4">Better Experience</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non amet
-              culpa nobis corporis officiis, numquam cupiditate, enim expedita
-              eveniet dolorum, aliquid nesciunt sapiente illo voluptatum!
-              Dolores fuga mollitia atque, placeat minima quibusdam accusantium!
-              Veniam, non distinctio dolorem rerum laboriosam deleniti.
+            I Create Websites and manage your hosting. I can create your website in MERN or Wordpress. 
+             I also do repairing of the websites. I can create your database schema or design of highly optmized speed application.
             </p>
           </Col>
         </Row>
