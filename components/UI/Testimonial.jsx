@@ -26,85 +26,156 @@ const Testimonial = () => {
           </Col>
 
           <Col lg="6" md="6">
-            <SectionSubtitle subtitle="Testimonials" />
-            <h4 className="mt-4 mb-5">What my client says</h4>
+            <SectionSubtitle subtitle="Programming Languages" />
+            <h4 className="mt-4 mb-5">What are my Skills</h4>
 
             <Slider {...settings}>
               <div className={`${classes.testimonial__item}`}>
                 <div className={`${classes.testimonial__client}`}>
                   <Image
                     alt="client-img"
-                    src="/images/hero.jpg"
+                    src="/images/mypic.png"
                     width="50"
                     height="50"
                     className=" rounded-2"
                   />
 
                   <div>
-                    <h6>Jhon Doe</h6>
-                    <h6>Software Engineer</h6>
+                    <h6>Arsalan Bashir</h6>
+                    <h6>Frontend </h6>
                   </div>
                 </div>
 
-                <p>
+                {/* <p>
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                   Excepturi saepe eveniet dolores molestias nisi ullam quis
                   delectus inventore, quidem beatae ipsa pariatur doloribus
                   corrupti! Quisquam expedita minima, neque et quis, fugiat hic
                   iste possimus vitae perspiciatis consequatur quod modi
                   dignissimos.
-                </p>
+                </p> */}
+                <div className="image-container">
+                <Image
+                 alt="client-img"
+                    src="/images/basicfrontend.png"
+                    width="300"
+                    height="100"
+                    className=" rounded-2  "
+                ></Image>
+                 <Image
+                 alt="client-img"
+                    src="/images/react.png"
+                    width="100"
+                    height="100"
+                    className=" rounded-2 "
+                ></Image>
+             
+                 <Image
+                 alt="client-img"
+                    src="/images/bootstrap.png"
+                    width="100"
+                    height="100"
+                    className=" rounded-2 "
+                ></Image>
+                 <Image
+                 alt="client-img"
+                    src="/images/nextjs.png"
+                    width="100"
+                    height="100"
+                    className=" rounded-2 "
+                ></Image>
+                </div>
+               
+                 
               </div>
 
               <div className={`${classes.testimonial__item}`}>
                 <div className={`${classes.testimonial__client}`}>
                   <Image
                     alt="client-img"
-                    src="/images/hero.jpg"
+                    src="/images/mypic.png"
                     width="50"
                     height="50"
                     className=" rounded-2"
                   />
 
                   <div>
-                    <h6>Henry Nichols</h6>
-                    <h6>Web Developer</h6>
+                  <h6>Arsalan Bashir</h6>
+                    <h6>Backend</h6>
                   </div>
                 </div>
 
-                <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Excepturi saepe eveniet dolores molestias nisi ullam quis
-                  delectus inventore, quidem beatae ipsa pariatur doloribus
-                  corrupti! Quisquam expedita minima, neque et quis, fugiat hic
-                  iste possimus vitae perspiciatis consequatur quod modi
-                  dignissimos.
-                </p>
+                <div className="image-container">
+                <Image
+                 alt="client-img"
+                    src="/images/nodejs.svg"
+                    width="100"
+                    height="100"
+                    className=" rounded-2"
+                ></Image>
+                 <Image
+                 alt="client-img"
+                    src="/images/php.png"
+                    width="100"
+                    height="100"
+                    className=" rounded-2"
+                ></Image>
+             
+                 <Image
+                 alt="client-img"
+                    src="/images/java.svg"
+                    width="100"
+                    height="100"
+                    className=" rounded-2"
+                ></Image>
+                 <Image
+                 alt="client-img"
+                    src="/images/exp.png"
+                    width="100"
+                    height="100"
+                  
+                    className=" rounded-2"
+                ></Image>
+                </div>
               </div>
 
               <div className={`${classes.testimonial__item}`}>
                 <div className={`${classes.testimonial__client}`}>
                   <Image
                     alt="client-img"
-                    src="/images/hero.jpg"
+                    src="/images/mypic.png"
                     width="50"
                     height="50"
                     className=" rounded-2"
                   />
 
                   <div>
-                    <h6>Adam Smith</h6>
-                    <h6>Financial Accountant</h6>
+                  <h6>Arsalan Bashir</h6>
+                    <h6>Database</h6>
                   </div>
                 </div>
-                <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Excepturi saepe eveniet dolores molestias nisi ullam quis
-                  delectus inventore, quidem beatae ipsa pariatur doloribus
-                  corrupti! Quisquam expedita minima, neque et quis, fugiat hic
-                  iste possimus vitae perspiciatis consequatur quod modi
-                  dignissimos.
-                </p>
+                <Image
+                 alt="client-img"
+                    src="/images/mssql.png"
+                    width="100"
+                    height="100"
+                    className=" rounded-2"
+                ></Image>
+                 <Image
+                 alt="client-img"
+                    src="/images/mongo.png"
+                    width="100"
+                    height="100"
+                    className=" rounded-2"
+                ></Image>
+             
+                 <Image
+                 alt="client-img"
+                    src="/images/mysql.png"
+                    width="100"
+                    height="100"
+                    className=" rounded-2"
+                ></Image>
               </div>
             </Slider>
           </Col>
